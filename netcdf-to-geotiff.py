@@ -9,7 +9,7 @@ import geopandas as gpd
 import earthpy as et
 
 #load file
-nc_file = xr.open_dataset('/Users/keke/Desktop/prob_lower_tercile_MJJA2021_20210515.nc')
+nc_file = xr.open_dataset('/Users/keke/Desktop/GIS/prob_lower_tercile_MJJA2021_20210515.nc')
 
 #view xarray object
 #print(nc_file)
